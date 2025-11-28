@@ -25,23 +25,6 @@
 
 ---
 
-## 🛠️ Projects
-### **• Windows Administration Lab**
-User management, performance tuning, troubleshooting.
-
-### **• Active Directory Implementation (Mini Lab)**
-OUs, user groups, policies.
-
-### **• SOC Log Analysis Practice**
-Investigating suspicious events in SIEM tools.
-
-### **• Vulnerability Assessment with Nmap**
-Port scanning, service enumeration, reporting.
-
-### **• Basic Penetration Testing Workflow**
-Reconnaissance, enumeration, scanning.
-
----
 
 ## ⚙️ Tools & Technologies
 Windows • Linux • Nmap • Wireshark • Splunk • Chronicle • Elastic SIEM  
@@ -51,7 +34,6 @@ Active Directory • Microsoft 365 • PowerShell • Git • Networking
 
 ## 📈 GitHub Stats (Optional)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mrrmoh&layout=compact)
-![Muhammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=mrrmoh&show_icons=true)
 
 <!--
 **mrrmoh/mrrmoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
