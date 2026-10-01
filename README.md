@@ -1,51 +1,48 @@
-# 👋 Hi, I'm **Muhammad Garba Yakubu**
-**IT Support | Cybersecurity | SOC Analyst | Network & Endpoint Support**
+# 👋 Hi, I'm Muhammad Garba Yakubu
 
-🚀 Passionate about securing systems, solving technical problems, and building projects that demonstrate real IT & cybersecurity skills.
+**Cybersecurity Analyst | Data Engineer | Market Intelligence Builder**
+📍 Abuja, Nigeria | 📧 mohgarba00@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/mohgarba00)
 
-📍 Abuja, Nigeria  
-📧 Email: **mohgarba00@gmail.com**  
-🔗 LinkedIn: **linkedin.com/in/mohgarba00**
+> I secure systems and I build data systems that explain Nigeria's real economy — fuel, FX, and building material prices.
 
 ---
 
-## 🔐 Cybersecurity Interests
-- Security Operations (SOC Level 1)
-- SIEM & Log Analysis
-- Threat Detection & Incident Response
-- Vulnerability Assessment
-- Network Defense & Access Control
+## 🚀 What I'm Building Now
 
-## 🖥️ IT Support Interests
-- Windows Troubleshooting
-- Microsoft 365 Administration
-- Active Directory
-- Endpoint/Device Management
-- Network Operations
+I am pivoting from pure IT Support into **Data Engineering for Market Intelligence** — using ETL to track prices that affect 200M Nigerians.
 
----
+**Featured Projects:**
 
+### 1. [Abuja Price Intelligence](https://github.com/mrrmoh/abuja-price-intelligence)
+ETL pipeline that cleans raw cement/block prices and builds a data warehouse + analytics.
+`Python` `Pandas` `ETL` `Matplotlib`
 
-## ⚙️ Tools & Technologies
-Windows • Linux • Nmap • Wireshark • Splunk • Chronicle • Elastic SIEM  
-Active Directory • Microsoft 365 • PowerShell • Git • Networking
+### 2. [Nigeria Fuel Intelligence](https://github.com/mrrmoh/nigeria-fuel-intelligence)
+Multi-source fuel price tracker that correlates PMS prices with USD/NGN to predict inflation on transport & materials.
+`Web Scraping` `API Ingestion` `Data Correlation` `Market Intelligence`
+
+**Roadmap:** Project 3 — Abuja/Lagos Rent Intelligence + Real-time Dashboard
 
 ---
 
-## 📈 GitHub Stats (Optional)
+## 🔐 Cybersecurity & IT Core
+
+- **SOC Level 1:** SIEM (Splunk, Chronicle, Elastic), Log Analysis, Threat Detection
+- **IT Ops:** Windows, Active Directory, Microsoft 365, PowerShell
+- **Tools:** Nmap, Wireshark, Networking, Endpoint Management
+
+## ⚙️ Data Engineering Stack
+
+`Python` `Pandas` `ETL` `BeautifulSoup` `Requests` `Git` `Data Warehousing` `Matplotlib`
+
+---
+
+## 📊 GitHub Stats
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mrrmoh&layout=compact)
+![Muhammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=mrrmoh&show_icons=true)
 
-<!--
-**mrrmoh/mrrmoh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🎯 Open to:
+Data Engineering roles, SOC Analyst roles, and Market Intelligence projects where security + data meet.
