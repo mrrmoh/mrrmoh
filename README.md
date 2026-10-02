@@ -1,48 +1,55 @@
-# 👋 Hi, I'm Muhammad Garba Yakubu
+# Abuja Rent Intelligence System
 
-**Cybersecurity Analyst | Data Engineer | Market Intelligence Builder**
-📍 Abuja, Nigeria | 📧 mohgarba00@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/mohgarba00)
+Real-time rent tracker for Abuja & Lagos  because rent in Masaka vs Wuse is 400% different and no one explains why.
+Tracks rent across 10 locations from Masaka (Nasarawa) to Lekki (Lagos).
 
-> I secure systems and I build data systems that explain Nigeria's real economy — fuel, FX, and building material prices.
+## Problem
+Abuja tenants pay 10% agency + 10% caution + 1 year upfront with no price transparency.
+Same Self-Contain ₦210k in Masaka = ₦720k in Wuse 2.
+Zero transparency.
 
----
+## Solution
+ETL pipeline that scrapes, cleans, and warehouses rent data to detect overpriced listings.
 
-## 🚀 What I'm Building Now
+## Features
+- Scrapes 120 listings across 10 locations
+- Calculates monthly breakdown & affordability score
+- Flags overpriced >20% above location average
+- Warehouse aggregated by location + property type
 
-I am pivoting from pure IT Support into **Data Engineering for Market Intelligence** — using ETL to track prices that affect 200M Nigerians.
+## Key Insight (from this run)
+- Masaka avg Self-Contain: ₦210k/yr vs Wuse ₦720k/yr = 242% difference for 30 min drive
+- Lekki is 5.7x Masaka
+- 242% premium to live 30 mins closer to center
+- 18% listings overpriced 20% above location avg
 
-**Featured Projects:**
-
-### 1. [Abuja Price Intelligence](https://github.com/mrrmoh/abuja-price-intelligence)
-ETL pipeline that cleans raw cement/block prices and builds a data warehouse + analytics.
-`Python` `Pandas` `ETL` `Matplotlib`
-
-### 2. [Nigeria Fuel Intelligence](https://github.com/mrrmoh/nigeria-fuel-intelligence)
-Multi-source fuel price tracker that correlates PMS prices with USD/NGN to predict inflation on transport & materials.
-`Web Scraping` `API Ingestion` `Data Correlation` `Market Intelligence`
-
-**Roadmap:** Project 3 — Abuja/Lagos Rent Intelligence + Real-time Dashboard
-
----
-
-## 🔐 Cybersecurity & IT Core
-
-- **SOC Level 1:** SIEM (Splunk, Chronicle, Elastic), Log Analysis, Threat Detection
-- **IT Ops:** Windows, Active Directory, Microsoft 365, PowerShell
-- **Tools:** Nmap, Wireshark, Networking, Endpoint Management
-
-## ⚙️ Data Engineering Stack
-
-`Python` `Pandas` `ETL` `BeautifulSoup` `Requests` `Git` `Data Warehousing` `Matplotlib`
+## Stack
+Python, Pandas, ETL, Data Warehousing, Market Intelligence
 
 ---
+## 🔗 Part of Nigeria Intelligence Systems.
 
-## 📊 GitHub Stats
+This project is part of a 4-pipeline interconnected system tracking Nigeria's real economy + security:
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mrrmoh&layout=compact)
-![Muhammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=mrrmoh&show_icons=true)
+**Market Intelligence:**
 
----
+- [1. Abuja Price Intelligence]
+(https://github.com/mrrmoh/abuja-price-intelligence) 
+— Cement & building materials ETL
 
-### 🎯 Open to:
-Data Engineering roles, SOC Analyst roles, and Market Intelligence projects where security + data meet.
+- [2. Nigeria Fuel Intelligence]
+(https://github.com/mrrmoh/nigeria-fuel-intelligence) 
+— Fuel & USD/NGN correlation
+
+- [3. Abuja Rent Intelligence (This Repo)]
+(https://github.com/mrrmoh/abuja-rent-intelligence) 
+— Rent spread & overpricing detection
+
+**Security Intelligence:**
+- [4. Phishing Intelligence Pipeline](https://github.com/mrrmoh/phishing-intelligence-pipeline) — Threat Intel IOC feed for SOC
+
+**Master Connector:**
+- [5. Nigeria Intelligence Master]
+(https://github.com/mrrmoh/nigeria-intelligence-master) — Links all pipelines into Cost-of-Living Index (coming soon)
+
+> All pipelines use same ETL pattern: `scraper.py → etl.py → analyzer.py → warehouse` — demonstrating reusable Data Engineering architecture.
